@@ -2,7 +2,7 @@
 	<div id="app">
 		<PDFViewer
 			src="
-				'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
+				https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 			"
 		/>
 	</div>

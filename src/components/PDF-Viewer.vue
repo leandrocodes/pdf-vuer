@@ -8,9 +8,7 @@
 import pdfjsLib from 'pdfjs-dist/build/pdf'
 import { PDFViewer } from 'pdfjs-dist/web/pdf_viewer'
 import 'pdfjs-dist/web/pdf_viewer.css'
-
-pdfjsLib.GlobalWorkerOptions.workerSrc =
-	'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.0.943/build/pdf.worker.min.js'
+import 'pdfjs-dist/build/pdf.worker.entry'
 
 export default {
 	name: 'PDF-Viewer',
