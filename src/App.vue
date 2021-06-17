@@ -1,11 +1,20 @@
 <template>
-	<div id="app"></div>
+	<div id="app">
+		<PDFViewer
+			src="
+				'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
+			"
+		></PDFViewer>
+	</div>
 </template>
 
 <script>
+import PDFViewer from './components/PDF-Viewer.vue'
 export default {
 	name: 'App',
-	components: {}
+	components: {
+		PDFViewer
+	}
 }
 </script>
 
